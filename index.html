@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Salwa Aliifah Irawan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">salwa aliifah irawan</h1>
+      <nav class="nav">
+        <a href="#about">Tentang/a>
+        <a href="#projects">Proyek</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Hai — saya <span class="accent">Salwa</span></h2>
+        <p class="lead">Saya membuat antarmuka sederhana, desain visual, dan materi pemasaran — cepat dan fungsional.</p>
+        <a class="btn" href="#projects">Lihat Proyek</a>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container grid two-col">
+        <div>
+          <h3>Tentang Saya</h3>
+          <p>Saya berpengalaman dalam desain grafis menggunakan Canva, pembuatan materi promosi digital, serta pengembangan front-end dasar dengan HTML dan CSS. Dalam setiap proyek, saya berfokus pada bagaimana membuat tampilan yang estetis namun tetap fungsional, sehingga konten dapat dipahami dengan mudah oleh pengguna.
+ <br> Saya sering mengerjakan desain untuk kebutuhan media sosial, poster, template kampanye, dan materi visual lainnya yang digunakan untuk promosi berulang. Pendekatan desain saya menekankan konsistensi visual, keterbacaan, dan kemudahan adaptasi, sehingga setiap aset dapat digunakan kembali dengan efisien tanpa mengurangi kualitas.</p>
+          <ul class="skills">
+            <li>Desain Canva</li>
+            <li>UI dasar (HTML/CSS)</li>
+            <li>Branding & visual</li>
+            <li>Konten media sosial</li>
+          </ul>
+        </div>
+
+        <!-- Ganti sumber gambar ke file lokal images/profile.jpg -->
+        <div class="profile-card">
+          <img src="salwa.jpg.jpeg" alt="Foto profil" class="profile-photo" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h3>Proyek Pilihan</h3>
+        <div class="grid projects-grid">
+          <article class="card">
+            <div class="card-body">
+              <h4>Poster Penerimaan Mahasiswa</h4>
+              <p>Poster Promosi Penerimaan Mahasiswa Baru (PMB)
+Saya merancang poster promosi kampus menggunakan Canva dengan tampilan profesional dan elemen yang mudah dibaca. Desain ini dibuat untuk kebutuhan publikasi di media sosial dan versi cetak. Konten mencakup informasi pendaftaran, keunggulan kampus, jadwal gelombang penerimaan, serta call-to-action yang kuat agar menarik calon mahasiswa baru.</p>
+              <a class="link" href="#">Lihat detail</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <h4>Template Instagram</h4>
+              <p>Serangkaian Template Konten Visual untuk Kampanye Media Sosial Berulang
+
+Pada proyek ini, saya merancang beberapa template konten visual menggunakan Canva untuk kebutuhan kampanye media sosial yang berlangsung secara berkala. Setiap template dibuat dengan gaya yang konsisten agar mudah digunakan kembali, sekaligus menjaga identitas visual brand.</p>
+              <a class="link" href="#">Lihat detail</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <h4>Landing Page Sederhana</h4>
+              <p>Pada proyek ini, saya membuat sebuah landing page sederhana yang berfokus pada penyampaian informasi secara ringkas, jelas, dan mudah dipahami oleh pengguna. Desain dibuat dengan struktur yang terorganisir, memanfaatkan elemen visual minimalis agar halaman tetap bersih dan nyaman dilihat.</p>
+              <a class="link" href="#">Lihat detail</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h3>Kontak</h3>
+        <p>Butuh desain atau kolaborasi? Kirim pesan melalui:</p>
+        <ul>
+          <li>Email: <a href="mailto:email@anda.com">salwa.irawan2006@gmail.com</a></li>
+          <li>Instagram: <a href="#">@slwaalfh</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Nama Anda — Dibuat dengan ❤️</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
