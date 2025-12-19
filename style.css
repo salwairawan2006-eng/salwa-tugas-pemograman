@@ -140,6 +140,7 @@ body{
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
+
 .cta-button: hover {
     background-color: #c0392b;
 }
@@ -150,4 +151,5 @@ body{
     display: flex;
     gap: 20px;
 }
+
 
